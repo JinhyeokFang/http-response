@@ -1,0 +1,26 @@
+{
+  "name": "ts-response",
+  "version": "2.0.1",
+  "main": "./dist/main.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/gulp",
+    "lint": "./node_modules/.bin/gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinhyeokFang/http-response.git"
+  },
+  "author": "Jinhyeok Bang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JinhyeokFang/http-response/issues"
+  },
+  "homepage": "https://github.com/JinhyeokFang/http-response#readme",
+  "description": ""
+}
