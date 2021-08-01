@@ -1,6 +1,6 @@
 {
   "name": "ts-response",
-  "version": "1000.0.0",
+  "version": "10000.0.0",
   "main": "./lib/index.js",
   "dependencies": {
     "express": "^4.17.1"
@@ -24,6 +24,12 @@
   },
   "author": "Jinhyeok Bang",
   "license": "MIT",
+  "keywords": [
+    "express",
+    "typescript",
+    "response",
+    "http"
+  ],
   "bugs": {
     "url": "https://github.com/JinhyeokFang/http-response/issues"
   },

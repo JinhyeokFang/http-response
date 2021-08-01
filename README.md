@@ -17,9 +17,11 @@ try {
 ```
 ## response
 - responseOK(res: Response, {data?: Record<string, unknown>})
-- responseOKWithPage(pageName: string)
+- responseOKWithPage(res: Response, pageName: string)
+- responseOKWithFile(res: Response, filePath: string)
 - responseCreated(res: Response, {data?: Record<string, unknown>})
 - responseAccepted(res: Response, {data?: Record<string, unknown>})
+- responseNoContent(res: Response, {data?: Record<string, unknown>})
 
 - responseBadRequest(res: Response, {errorMessage?: string})
 - responseUnauthorized(res: Response, {errorMessage?: string})
