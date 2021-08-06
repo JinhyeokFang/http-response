@@ -1,6 +1,6 @@
 {
   "name": "ts-response",
-  "version": "10000.0.0",
+  "version": "10001.0.0",
   "main": "./lib/index.js",
   "dependencies": {
     "express": "^4.17.1"
